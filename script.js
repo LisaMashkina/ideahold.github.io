@@ -11,6 +11,6 @@ btn.addEventListener("click", function(){
 let input = document.getElementById("input");
 let p = document.createElement("p");
 
-p.innerText = `${tg.initDataUnsafe.first_name}`;
+p.innerText = `${tg.initDataUnsafe.user.first_name}`;
 
 input.appendChild(p);
